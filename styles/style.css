@@ -36,6 +36,7 @@ body {
   line-height: 27px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn-secondary {
@@ -47,6 +48,7 @@ body {
   line-height: 27px;
   border: 1px solid #fd6e0a;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn-action {
@@ -124,4 +126,48 @@ nav li a {
   left: -320px;
   top: 340px;
   transform: rotate(-90deg);
+}
+
+/* about me */
+
+.about-me {
+  border: 2px solid tomato;
+  width: 1140px;
+  margin: 130px auto;
+  background-color: #fff8f3;
+  border-radius: 10px;
+}
+
+.about-me-content {
+   
+  margin: 131px 156px;
+  background-color: white;
+  text-align: center;
+}
+
+.about-me-content .title {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.about-me-content .description {
+  margin: 30px 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about-me .personal-information {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me .personal-information .info-sub-title {
+  font-size: 20px;  
+}
+
+.about-me .personal-information .info-title{
+  font-weight: 700;
+  font-size: 20px;
 }
