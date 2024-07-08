@@ -27,8 +27,8 @@ body {
   color: #757575;
 }
 
-.dark-5{
-  color: #D1D1D1;
+.dark-5 {
+  color: #d1d1d1;
 }
 
 .btn-primary {
@@ -218,7 +218,7 @@ nav li a {
 }
 
 /* A summary of My Resume */
-.a-summary-of-my-resume { 
+.a-summary-of-my-resume {
   width: 1140px;
   margin: 0 auto 113px;
 }
@@ -231,7 +231,7 @@ nav li a {
   margin-bottom: 113px;
 }
 
-.experiences{
+.experiences {
   display: flex;
   gap: 24px;
 }
@@ -263,3 +263,7 @@ nav li a {
   line-height: 41px;
 }
 
+.a-summary-of-my-resume .download-btn {
+  text-align: center;
+  margin-top: 20.5px;
+}
