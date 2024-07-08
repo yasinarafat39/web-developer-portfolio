@@ -139,7 +139,6 @@ nav li a {
 }
 
 .about-me-content {
-   
   margin: 131px 156px;
   background-color: white;
   text-align: center;
@@ -164,10 +163,53 @@ nav li a {
 }
 
 .about-me .personal-information .info-sub-title {
-  font-size: 20px;  
+  font-size: 20px;
 }
 
-.about-me .personal-information .info-title{
+.about-me .personal-information .info-title {
   font-weight: 700;
   font-size: 20px;
+}
+
+/* What I do section */
+
+.what-I-do { 
+  text-align: center;
+  width: 1140px;
+  margin: 0 auto 130px;
+}
+
+.what-I-do .title {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.what-I-do .description {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 30px 0 50px;
+}
+
+.all-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px 33px 0;
+  text-align: left;
+}
+
+
+.card .card-title {
+  margin: 30px 0px 20px 0;
+}
+
+.card .description {
+  font-size: 16px;
+  line-height: 28px;
 }
